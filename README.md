@@ -37,6 +37,7 @@ The default command is `-config /config.yml` so that can be excluded if you use 
 
 | Version      | Image tags     |
 |--------------|----------------|
+| v0.3.0.alpha | v0.3.0.alpha   |
 | v0.2.4       | v0.2.4, latest |
 | v0.2.3       | v0.2.3         |
 
