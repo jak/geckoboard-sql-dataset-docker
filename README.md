@@ -21,7 +21,7 @@ Docker Compose:
 ```yaml
 services:
   geckoboard:
-    image: jsixc/geckoboard-sql-dataset:v0.2.3
+    image: jsixc/geckoboard-sql-dataset:latest
     command: -config /config.yml
     volumes:
       - ./geckoboard.yml:/config.yml
@@ -37,5 +37,6 @@ The default command is `-config /config.yml` so that can be excluded if you use 
 
 | Version      | Image tags     |
 |--------------|----------------|
-| v0.2.3       | v0.2.3, latest |
+| v0.2.4       | v0.2.4, latest |
+| v0.2.3       | v0.2.3         |
 
